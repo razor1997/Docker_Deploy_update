@@ -6,7 +6,7 @@ namespace sample_app
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Witaj swiecie prosto z Dockera!");
+            Console.WriteLine("Witaj swiecie prosto z Dockera! Wersja 2");
             while(true)
             {
             };
