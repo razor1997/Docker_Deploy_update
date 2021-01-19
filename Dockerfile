@@ -4,6 +4,6 @@ WORKDIR /program1/
 COPY *.csproj ./
 RUN dotnet restore
 
-COPY . ./program1
+COPY . ./program2
 RUN dotnet build -c Release
 ENTRYPOINT ["dotnet", "run", "-c", "Release", "--no-build"]
